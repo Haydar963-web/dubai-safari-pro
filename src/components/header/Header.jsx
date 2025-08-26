@@ -1,11 +1,11 @@
-import { useState } from "react";
+// import { useState } from "react";
 import DubaiLogo from "../../images/logo.png";
 import "./header.css";
 import NavBar from "./NavBar";
 import Logo from "./Logo";
 
-const Header = () => {
-  const [toggle, setToggle] = useState(false);
+const Header = ({ toggle, setToggle }) => {
+  // const [toggle, setToggle] = useState(false);
   return (
     <header className="header">
       <Logo dubaiLogo={DubaiLogo} />
@@ -25,5 +25,4 @@ const Header = () => {
     </header>
   );
 };
-
 export default Header;

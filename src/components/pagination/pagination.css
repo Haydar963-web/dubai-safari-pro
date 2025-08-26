@@ -22,10 +22,15 @@
 .pagination .page.next {
   width: max-content;
   padding: 0 10px;
+  overflow: hidden;
 }
 
 .page.previous {
   border-radius: 7px 0 0 7px;
+}
+.page:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 3px 30px 5px royalblue;
 }
 
 .page.next {
@@ -37,11 +42,11 @@
 }
 
 .active {
-  background-color: rgb(165, 162, 162);
+  background-color: gray;
 }
 
 @media (max-width: 350px) {
   .pagination .page {
-      font-size: 14px;
+    font-size: 14px;
   }
 }

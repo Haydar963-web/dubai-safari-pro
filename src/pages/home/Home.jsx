@@ -11,7 +11,7 @@ import SortInput from "../../components/sort-input/SortInput";
 import Banner from "../../components/banner/Banner";
 import NewsLetter from "../../components/news-letter/NewsLetter";
 
-const Home = () => {
+const Home = ({ toggle, setToggle }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [sortItem, setSortItem] = useState("recomended");
 
@@ -29,7 +29,7 @@ const Home = () => {
 
   return (
     <div>
-      <HeroHeader />
+      <HeroHeader toggle={toggle} setToggle={setToggle} />
       <Services />
       <SortInput
         setSortItem={setSortItem}

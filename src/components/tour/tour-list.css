@@ -1,4 +1,4 @@
-.tour-list{
+.tour-list {
   padding: 0 30px;
   display: flex;
   justify-content: space-around;
@@ -13,10 +13,15 @@
   border-radius: 7px;
   background-color: white;
   transition: 0.2s all ease;
+  cursor: pointer;
 }
 .tour-item:hover {
-  background-color: snow;
-  box-shadow: 0 0 3px 3px gray;
+  box-shadow: 3px 3px 30px 5px rgb(82, 124, 252);
+  transform: scale(1.1);
+}
+.tour-item:hover .tour-item-title {
+  color: royalblue;
+  text-shadow: 2px 2px 5px royalblue;
 }
 .tour-item-image {
   width: 100%;
@@ -52,7 +57,7 @@
   margin: 15px 0;
 }
 .tour-item-price {
-  margin-top: 25px; 
+  margin-top: 25px;
   margin-bottom: 15px;
   width: 100%;
   color: gray;
@@ -117,4 +122,3 @@
     width: 100%;
   }
 }
-

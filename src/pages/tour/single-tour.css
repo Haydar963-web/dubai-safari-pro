@@ -6,6 +6,12 @@
   font-size: 17px;
   font-weight: 500;
   color: gray;
+  cursor: pointer;
+}
+.tour-step:hover {
+  color: aqua;
+  text-shadow: 1px 1px 10px aqua;
+  transform: translateX(3%);
 }
 
 .tour-step i {
@@ -21,6 +27,13 @@
   border-radius: 7px;
   font-size: 21px;
   width: max-content;
+  cursor: pointer;
+}
+.tour-category:hover {
+  color: aqua;
+  text-shadow: 1px 1px 10px aqua;
+  box-shadow: 3px 3px 30px 5px royalblue;
+  transform: scale(1.1);
 }
 
 .tour-title {
@@ -39,6 +52,11 @@
   margin-left: 24px;
   font-size: 17px;
   font-weight: 500;
+}
+.tour-provider:hover {
+  color: aqua;
+  text-shadow: 1px 1px 10px aqua;
+  transform: scale(1.15);
 }
 
 .tour-provider span {
@@ -91,7 +109,15 @@
 }
 /* Book Now */
 .book-now {
-  box-shadow: 0 0 1px 1px gray;
+  border-radius: 8px;
+  box-shadow: 1px 1px 20px 5px rgba(54, 45, 54, 0.8);
+}
+.book-now:hover {
+  box-shadow: 3px 3px 30px 5px royalblue;
+}
+.book-now:hover .book-now-btn {
+  color: aqua;
+  text-shadow: 1px 1px 10px aqua;
 }
 
 .book-now-header {

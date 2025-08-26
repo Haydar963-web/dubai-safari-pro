@@ -11,6 +11,13 @@
   height: 500px;
   background-color: #d1f6e2;
 }
+.news-latter-container:hover {
+  box-shadow: 3px 3px 30px 5px royalblue;
+}
+.news-latter-container:hover .news-letter-content-title {
+  text-shadow: 3px 3px 15px royalblue;
+  color: deepskyblue;
+}
 
 .news-letter-image-wrapper {
   width: 50%;

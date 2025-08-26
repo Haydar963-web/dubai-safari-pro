@@ -1,5 +1,3 @@
-## Description in English
-
 ### 🏝️ Dubai Tourism Website Project
 
 This project is a dynamic and responsive web application showcasing a variety of tourist trips within Dubai. It features a clean design, optimized performance, and a user-friendly interface built with **React**, structured for scalability and maintainability.

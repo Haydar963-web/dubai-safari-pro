@@ -9,6 +9,12 @@
 .available-tours {
   font-size: 21px;
   color: gray;
+  cursor: pointer;
+}
+.available-tours:hover {
+  text-shadow: 3px 3px 30px royalblue;
+  color: royalblue;
+  transform: scale(1.2);
 }
 
 .sort-input-container select {
@@ -17,6 +23,11 @@
   border-radius: 21px;
   font-size: 21px;
   font-weight: 500;
+  cursor: pointer;
+}
+.sort-input-container select:hover {
+  box-shadow: 3px 3px 30px 5px royalblue;
+  transform: scale(1.1);
 }
 
 .sort-input-container select:focus {

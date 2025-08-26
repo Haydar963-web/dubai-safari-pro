@@ -13,6 +13,11 @@
   font-size: 21px;
   cursor: pointer;
 }
+.services-item:hover {
+  box-shadow: 3px 3px 30px 5px royalblue;
+  color: royalblue;
+  transform: scale(1.2);
+}
 .service-icon {
   margin-right: 5px;
 }
@@ -20,12 +25,12 @@
   color: gray;
 }
 .service-icon.bi-people-fill {
-  color: rgb(52 ,5, 96);
+  color: rgb(52, 5, 96);
 }
 .service-icon.bi-building {
   color: var(--orange-color);
 }
-.service-icon.bi-globe{
+.service-icon.bi-globe {
   color: #10000e;
 }
 /* Media Queries */

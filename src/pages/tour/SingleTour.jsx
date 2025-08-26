@@ -3,9 +3,13 @@ import Rating from "../../components/tour/Rating";
 import { toursList } from "../../data";
 import BookNow from "./BookNow";
 import "./single-tour.css";
+import { useEffect } from "react";
 
 const SingleTour = () => {
   const { id } = useParams();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const tour = toursList.find((t) => t.id === +id);
 

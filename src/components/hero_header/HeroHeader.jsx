@@ -1,9 +1,8 @@
 import "./hero-header.css";
-
-const HeroHeader = () => {
+const HeroHeader = ({ toggle }) => {
   return (
     <div className="hero-header">
-      <div className="search-box">
+      <div style={{ zIndex: toggle && "-1" }} className="search-box">
         <div className="input-wrapper">
           <i className="bi bi-search"></i>
           <input
